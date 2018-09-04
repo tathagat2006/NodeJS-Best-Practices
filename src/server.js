@@ -12,6 +12,10 @@ app.use(express.urlencoded({extended: true}))
 app.get('/',(req,res) => {
     res.send('Hello world!')
 })
-app.listen(2929, () => {
-    console.log('Server started on http://localhost:2929')
-})
+// app.listen(2929, () => {
+//     console.log('Server started on http://localhost:2929')
+// })
+
+module.exports = {
+    app
+}
