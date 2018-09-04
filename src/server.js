@@ -5,6 +5,10 @@ const app = express()
 //to make public folder available at http request.
 app.use('/',express.static(path.join(__dirname,'../public')))
 
+//since we'll be using post request somewhere down the line.
+app.use(express.json())
+app.use(express.urlencoded({extended: true}))
+
 app.get('/',(req,res) => {
     res.send('Hello world!')
 })
