@@ -22,5 +22,9 @@
     "hbs": "^4.0.1",
     "mysql2": "^1.6.1",
     "sequelize": "^4.38.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0"
   }
 }
