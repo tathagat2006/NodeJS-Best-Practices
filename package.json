@@ -1,0 +1,26 @@
+{
+  "name": "best_practices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tathagat2006/NodeJS-Best-Practices.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tathagat2006/NodeJS-Best-Practices/issues"
+  },
+  "homepage": "https://github.com/tathagat2006/NodeJS-Best-Practices#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-hbs": "^1.0.4",
+    "hbs": "^4.0.1",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.0"
+  }
+}
