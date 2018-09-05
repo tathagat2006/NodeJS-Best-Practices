@@ -1,5 +1,5 @@
-const app = require('./server')
-const db = require('./models/db')
+const { app } = require('./server')
+const { db } = require('./models/db')
 
 async function run() {
     await db.sync()
